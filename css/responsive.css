@@ -1,0 +1,261 @@
+@media only screen and (max-width:375px) {
+
+    /***** header Section *****/
+
+    header>.container>nav>img {
+        width: 5rem;
+        height: auto;
+    }
+
+
+    header>.container>nav>ul>li {
+        list-style: none;
+        align-items: center;
+    }
+
+    header>.container>nav>ul>li>a {
+        padding: 10px 15px;
+        font-size: .7rem;
+    }
+
+    /***** End header Section *****/
+
+    /***** feature Section *****/
+    #feature {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature_section {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
+
+    .feature_svg {
+        width: 100%;
+        height: auto;
+    }
+
+    .feature_content>h1 {
+        margin-top: 1.8rem;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .feature_content>p {
+        font-size: .8rem;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .feature_content>form>input {
+        width: 100%;
+        height: 2.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .feature_content>form>button {
+        width: 100%;
+        height: 2.1rem;
+    }
+
+    /***** End feature Section *****/
+
+    /***** team Section *****/
+
+    #team {
+        width: 100%;
+        height: 49rem;
+        position: relative;
+    }
+
+    .team_section {
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
+
+    .team_content>h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .team_content>p {
+        font-size: .8rem;
+        padding: 1.5rem 0;
+    }
+
+    .team_content>a {
+        font-size: .8rem;
+        justify-content: center;
+    }
+
+    .team_content>a>img {
+        margin-left: 10px;
+    }
+
+    .team_content>hr {
+        width: 50%;
+        margin-top: 3px;
+        margin: auto;
+    }
+
+    .teambox {
+        margin: 2rem auto;
+        width: 90%;
+        height: 11rem;
+        background: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 14px 1px rgba(191, 191, 191, 1);
+        -webkit-box-shadow: 0px 0px 14px 1px rgba(191, 191, 191, 1);
+        -moz-box-shadow: 0px 0px 14px 1px rgba(191, 191, 191, 1);
+    }
+
+    .teambox>p {
+        margin-top: 5px;
+        font-size: .6rem;
+    }
+
+    .teambox>.profile {
+        position: relative;
+    }
+
+    .teambox>.profile>.profile_card {
+        position: absolute;
+        top: 1rem;
+        width: 100%;
+        height: 2.5rem;
+    }
+
+    .teambox>.profile>.profile_card>img {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 4rem;
+        position: absolute;
+        top: 3px;
+
+    }
+
+    .teambox>.profile>.profile_card>h1 {
+        position: absolute;
+        top: 5px;
+        left: 2.5rem;
+        font-size: .6rem;
+    }
+
+    .teambox>.profile>.profile_card>p {
+        position: absolute;
+        top: 1.4rem;
+        left: 2.5rem;
+        font-size: .6rem;
+        font-family: var(--Raleway);
+        font-style: normal;
+    }
+
+    /***** End team Section *****/
+
+    /***** sign_in Section *****/
+
+    .sign_in {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        text-align: center;
+    }
+
+    .sign_in_content {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .sign_in_content>p {
+        font-size: .95rem;
+        margin-bottom: 1rem;
+    }
+
+    .sign_in_content>h1 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .sign_in_form {
+        width: 100%;
+    }
+
+    .sign_in_form>form>input {
+        width: 80%;
+        padding: .4rem 0;
+        margin-bottom: 1rem;
+        border-radius: 2px;
+        border: none;
+    }
+
+    .sign_in_form>form>button {
+        width: 80%;
+        padding: .5rem 0;
+        border: none;
+        font-size: .6rem;
+    }
+
+    /***** End sign_in Section *****/
+
+
+    .footer_main>.container>.footer_content>nav {
+        width: 100%;
+        height: 100%;
+        margin-top: 3.5rem;
+    }
+
+    .footer_main>.container>.footer_content>nav>ul>li {
+        list-style: none;
+        margin: 0.5rem 0;
+    }
+
+    .footer_main>.container>.footer_content>nav>ul>li>a {
+        font-size: .8rem;
+    }
+
+    .footer_content {
+        width: 100%;
+        height: 100%;
+        padding: 2.5rem 0;
+        display: block;
+
+    }
+
+    .company_info {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .company_info>p {
+        margin: 1rem 0;
+    }
+
+    .company_info>p>a {
+        color: #fff;
+        font-size: .8rem;
+        text-decoration: none;
+    }
+
+    .company_info>p>a>img {
+        margin-right: 1rem;
+        width: auto;
+        height: 15px;
+    }
+
+    .icon {
+        margin-top: 3.5rem;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: .2rem;
+        font-size: .7rem;
+    }
+
+    .footer_icons{
+        width: 25%;
+        margin: auto;
+    }
+    /***** End footer Section *****/
+}
